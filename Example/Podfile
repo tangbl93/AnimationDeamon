@@ -3,7 +3,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'AnimationDeamon_Example' do
+  
   pod 'AnimationDeamon', :path => '../'
+  pod 'ViewAnimator', '~> 3.0.0'
 
   target 'AnimationDeamon_Tests' do
     inherit! :search_paths

@@ -1,0 +1,23 @@
+PODS:
+  - AnimationDeamon (1.0)
+  - ViewAnimator (3.0.2)
+
+DEPENDENCIES:
+  - AnimationDeamon (from `../`)
+  - ViewAnimator (~> 3.0.0)
+
+SPEC REPOS:
+  trunk:
+    - ViewAnimator
+
+EXTERNAL SOURCES:
+  AnimationDeamon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimationDeamon: 14d60edafb6857411731bd42d9dc7aca009a5391
+  ViewAnimator: 16435576cd44fca0b0d63147d5031fd3e91d295a
+
+PODFILE CHECKSUM: f50e727dc870303499c1018f582029a1f956a465
+
+COCOAPODS: 1.10.1

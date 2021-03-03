@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		29DB0D3B1E55CAE582A3389A /* Pods-AnimationDeamon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDeamon_Example.debug.xcconfig"; path = "Target Support Files/Pods-AnimationDeamon_Example/Pods-AnimationDeamon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3FC0471B010032224CCF7919 /* Pods-AnimationDeamon_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDeamon_Tests.release.xcconfig"; path = "Target Support Files/Pods-AnimationDeamon_Tests/Pods-AnimationDeamon_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		596C294F49A952B00551DB3D /* AnimationDeamon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AnimationDeamon.podspec; path = ../AnimationDeamon.podspec; sourceTree = "<group>"; };
+		596C294F49A952B00551DB3D /* AnimationDeamon.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AnimationDeamon.podspec; path = ../AnimationDeamon.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AnimationDeamon_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDeamon_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		65439755DF7D7455A068EB8C /* Pods-AnimationDeamon_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDeamon_Example.release.xcconfig"; path = "Target Support Files/Pods-AnimationDeamon_Example/Pods-AnimationDeamon_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6928E4B0CA21E869892EF3CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6928E4B0CA21E869892EF3CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		858FF0010F018662EAF02E5C /* Pods-AnimationDeamon_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationDeamon_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AnimationDeamon_Tests/Pods-AnimationDeamon_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD02D472F75253E6856990C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BD02D472F75253E6856990C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C465456AC839653636A93F0D /* Pods_AnimationDeamon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationDeamon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAA2AD88A4855CF42BAD521 /* Pods_AnimationDeamon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationDeamon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				858FF0010F018662EAF02E5C /* Pods-AnimationDeamon_Tests.debug.xcconfig */,
 				3FC0471B010032224CCF7919 /* Pods-AnimationDeamon_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -270,10 +270,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AnimationDeamon_Example/Pods-AnimationDeamon_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AnimationDeamon/AnimationDeamon.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnimationDeamon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
