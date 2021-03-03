@@ -18,12 +18,18 @@ iOS 9.0+
 
 ## Installation
 
-AnimationDeamon is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### CocoaPods
+
+Simply add the following line to your Podfile:
 
 ```ruby
 pod 'AnimationDeamon'
 ```
+
+
+### Swift Package Manager
+
+To add a package dependency to your Xcode project, select File > Swift Packages > Add Package Dependency and enter https://github.com/tangbl93/AnimationDeamon.git to the text field.
 
 ## Usage
 
