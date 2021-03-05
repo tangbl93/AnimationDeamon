@@ -4,28 +4,26 @@
 [![License](https://img.shields.io/cocoapods/l/AnimationDeamon.svg?style=flat)](https://cocoapods.org/pods/AnimationDeamon)
 [![Platform](https://img.shields.io/cocoapods/p/AnimationDeamon.svg?style=flat)](https://cocoapods.org/pods/AnimationDeamon)
 
-[中文文档](./README_CN.md)
+## 功能
 
-## Features
-
-Prevent looping animation from being paused in the following situations: 
+防止循环动画在以下情况下被暂停播放: 
 
 - UIApplication didEnterBackground
 - UIViewController viewDidDisappear
 
-## Example
+## 示例项目
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+要运行示例项目, 请先下载, 然后从 `Example` 目录运行 `pod install`.
 
-## Requirements
+## 版本要求
 
 iOS 9.0+
 
-## Installation
+## 安装
 
 ### CocoaPods
 
-Simply add the following line to your Podfile:
+将以下行添加到你的 `Podfile` 中:
 
 ```ruby
 pod 'AnimationDeamon'
@@ -34,9 +32,9 @@ pod 'AnimationDeamon'
 
 ### Swift Package Manager
 
-To add a package dependency to your Xcode project, select File > Swift Packages > Add Package Dependency and enter https://github.com/tangbl93/AnimationDeamon.git to the text field.
+在Xcode中, 选择 `File > Swift Packages > Add Package Dependency` ，然后在文本框中输入 `https://github.com/tangbl93/AnimationDeamon.git`.
 
-## Usage
+## 使用
 
 ```
 AnimationDeamon.deamon(view: view) { (view) in
@@ -44,10 +42,10 @@ AnimationDeamon.deamon(view: view) { (view) in
 }
 ```
 
-## Author
+## 作者
 
 tangbl93, tangbl93@gmail.com
 
-## License
+## 许可证
 
 AnimationDeamon is available under the MIT license. See the LICENSE file for more info.
